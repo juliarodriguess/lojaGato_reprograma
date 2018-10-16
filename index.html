@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>lojinhe</title>
+  <link href="https://fonts.googleapis.com/css?family=Niramit|Pacifico" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="nav-items">
+        <img class="logo-cat" src="assets/cat-logo.png" />
+        <h1 class="store-heading">Loja do Gato</h1>
+        <ul class="links-header">
+          <li class="links-header-item"><a href="#">produtos</a></li>
+          <li class="links-header-item"><a href="#">contato</a></li>
+          <li class="links-header-item"><a href="#">sobre</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div id="products" class="products"></div>
+    </section>
+
+    <section>
+        <form id="formSubmit">
+            <input type="text" name="produto" placeholder="nome do produto" id="nomeProduto">
+            <input type="number" name="preço" placeholder="preço do produto" id="preçoProduto">
+            <input type="url" name="imagem" placeholder="link com a foto do produto" id="imagemProduto">
+            <input type="submit" name="enviar" placeholder="incluir" id="btnSubmit">
+        </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <ul class="links-footer">
+      <li><a href="#">mapa do site</a></li>
+      <li><a href="#">contato</a></li>
+      <li><a href="#">franquias</a></li>
+    </ul>
+  </footer>
+
+  <script type="text/javascript" src="data.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
